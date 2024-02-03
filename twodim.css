@@ -1,0 +1,38 @@
+html {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background: #7F00FF; 
+    background: -webkit-linear-gradient(to right, #E100FF, #7F00FF); 
+    background-image: linear-gradient(to right, #E100FF, #7F00FF);  
+
+  }
+  
+
+.transform{
+    width: 125px;
+    height: 125px;
+    border: 1px solid black;
+    margin-left: 30px;
+    margin-top: 25px;
+    background-color: #efefef;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+#scale:hover{
+    transform: scale(0.75);
+}
+
+#rotate:hover{
+    transform: rotate(50deg);
+}
+
+#move:hover{
+    transform: translate(100px,0px);
+}
+
+#chammak-challo:hover{
+    transform: scale(1.25) rotate(-40deg);
+}

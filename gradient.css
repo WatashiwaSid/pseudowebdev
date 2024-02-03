@@ -1,0 +1,67 @@
+html{
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+  
+.parent{
+    display: flex; gap: 40px;
+}
+
+#linear{
+    width: 400px;
+    height: 250px;
+    border: 1px solid black;
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    text-shadow: 2px 2px 2px black;
+}
+
+#lineartwo{
+    width: 400px;
+    height: 250px;
+    border: 1px solid black;
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    box-shadow: -2px -2px black, 2px 2px black;
+}
+
+#radial{
+    width: 400px;
+    height: 250px;
+    border: 1px solid black;
+    background-image: radial-gradient(#00C9FF 0%, #92FE9D 100%);
+    text-align: center;
+    font-size: 25px;
+}
+
+#container{
+    width: 1280px;
+    height: 200px;
+    max-width: 1280px;
+    max-height: 200px;
+    border: 1px solid black;
+    margin-top: 20px;
+    overflow: scroll;
+    background-color: #efefef;
+}
+
+#transformer{
+    margin-top: 30px;
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+    text-align: center;
+    font-size: 25px;
+    margin-left: 600px;
+}
+
+#transformer:hover{
+    transform: scale(1.1,1.1);
+}
