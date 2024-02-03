@@ -1,0 +1,114 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 10px;
+    z-index: -1;
+}
+
+.header{
+    height: 100%;
+    transform-style: preserve-3d;
+    position: relative;
+    display: flex;
+    z-index: -1;
+}
+
+#background{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+    transform: translateZ(-10px) scale(2.1);
+    z-index: 1;
+
+}
+
+/* #foreground{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    object-fit: cover;
+    transform: translateZ(-5px) scale(1.5);
+    z-index: 2;
+} */
+
+#header-text{
+    font-family: 'Franklin Gothic Heavy';
+    font-size: 170px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3), 5px 5px 70px rgba(255,255,255,0.5);
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+
+
+.sub-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+}
+
+.sub-section h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 90px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.bg{
+    width: 100%;
+    height: 500px;
+    background-attachment: fixed;
+    background-size: cover; /*similar to object-fit: cover */
+    background-position: center;
+    position: relative;
+}
+
+.bg1{
+    background-image: url(images/cycling.jpg);
+}
+
+.bg2{
+    background-image: url(images/rafting.jpg);
+}
+
+.bg3{
+    background-image: url(images/bungee.jpg);
+}
+
+.sports-desc{
+    margin: 10px;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.sports-heading{
+    display: inline;
+    padding: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    background-color: white;
+    color: black;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+   
+}
