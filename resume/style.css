@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+#left{
+    height: 100vh;
+    width: 20%;
+    background-color: #E0F4FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid black;
+    justify-content: space-evenly;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+#right{
+    height: 100vh;
+    width: 80%;
+    background-color: #D2E0FB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+#left img{
+    width: 200px;
+    border-radius: 100px;
+    object-fit: cover;
+    align-items: center;
+    border: 1px solid black;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.social-hd{
+    margin-top: 25px;
+    font-size: 25px;
+    font-weight: 800;
+    background-color: #39A7FF;
+    padding: 12px;
+    border-radius: 50px;
+}
+
+#linkbar
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2px 80px;
+    width: 100%;
+}
+
+.social
+{
+    margin-top: 25px;
+    text-align: center;
+}
+
+.ed-main{
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.ed-sub{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.cert-hd{
+    margin-top: 25px;
+    font-size: 25px;
+    font-weight: 800;
+    background-color: #E26EE5;
+    padding: 12px;
+    border-radius: 50px;
+}
+
+.cert{
+    margin-top: 25px;
+    text-align: center;
+}
+
+#head{
+    margin-top: 20px;
+    font-size: 55px;
+    font-weight: 900;
+}
+
+#sub{
+    font-size: 28px;
+    font-weight: 400;
+}
+
+#para
+{
+    text-align: center;
+    margin: 5px 100px;
+}
+
+.right-one, .right-two{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.exp, .vol, .act, .skills{
+    text-align: center;
+}
+
+.ex-main{
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.ex-role{
+    font-size: 16px;
+    font-weight: 600;
+}
